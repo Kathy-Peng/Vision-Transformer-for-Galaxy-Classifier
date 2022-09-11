@@ -14,7 +14,7 @@ The dataset is the Galaxy Zoo dataset from the galaxy challenge eight years ago,
 ## Visual Transformer Model
 Extensive explanations and comments for code will be provided in the ipynb file. 
 
-Credit goes to:
+## Credit goes to:
 SDSS (Sloan Digital Sky Survey)
 Alexey Dosovitskiy: author of vision transformer paper
 
