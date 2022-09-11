@@ -1,7 +1,7 @@
 # Vision-Transformer-for-Galaxy-Classifier
 Brown University Visual Computing Lab Starter Project
 
-##Background and Motivation
+## Background and Motivation
 
 Transformers have increasingly become the mainstream Natural Language Processing Model due to its advantages over CNN: 1. suitable for Parallel Processing with GPUs therefore faster training  2. More intuitive and better interpretability
 
