@@ -9,7 +9,19 @@ With the 2021 paper AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGN
 
 
 ## Dataset
-The dataset is the Galaxy Zoo dataset from the galaxy challenge eight years ago, with the labels mannually produced by volunteers who classify the galaxy images taken from the SDSS (Sloan Digital Sky Survey). There are 6 possible classes for galaxies: elliptical, clockwise spiral, anticlockwise spiral, edge-on , star/don't know, or merger. The dataset used in this project are train_x.zip, train_y.csv. Datasets are too large to be added to github repo and can be accessed here: https://drive.google.com/drive/folders/1IOx5ZplbTnpaZrQSFC5OaLiyPOppDRpL?usp=sharing
+The dataset for this project is the Galaxy 10 dataset (see https://astronn.readthedocs.io/en/latest/galaxy10sdss.html) which contains 21785 images of size 69 x 69 taken from the SDSS (Sloan Digital Sky Survey). The images are classified manually by volunteers in a crowd source project and are divided into 10 classes: 
+
+├── Class 0 (3461 images): Disk, Face-on, No Spiral
+├── Class 1 (6997 images): Smooth, Completely round
+├── Class 2 (6292 images): Smooth, in-between round
+├── Class 3 (394 images): Smooth, Cigar shaped
+├── Class 4 (1534 images): Disk, Edge-on, Rounded Bulge
+├── Class 5 (17 images): Disk, Edge-on, Boxy Bulge
+├── Class 6 (589 images): Disk, Edge-on, No Bulge
+├── Class 7 (1121 images): Disk, Face-on, Tight Spiral
+├── Class 8 (906 images): Disk, Face-on, Medium Spiral
+└── Class 9 (519 images): Disk, Face-on, Loose Spiral
+Galaxy10 is meant to be an alternative to MNIST or Cifar10 as a deep learning toy dataset for astronomers.
 
 ## Visual Transformer Model
 Extensive explanations and comments for code will be provided in the ipynb file. 
