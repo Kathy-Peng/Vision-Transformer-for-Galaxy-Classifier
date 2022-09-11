@@ -9,7 +9,7 @@ With the 2021 paper AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGN
 
 
 ## Dataset
-The dataset is the Galaxy Zoo dataset from the galaxy challenge eight years ago, with the labels mannually produced by volunteers who classify the galaxy images taken from the SDSS (Sloan Digital Sky Survey). There are 6 possible classes for galaxies: elliptical, clockwise spiral, anticlockwise spiral, edge-on , star/don't know, or merger. The dataset used in this project is given in the dataset folder in zip files: train_x.zip, train_y.zip, and test_x.zip.
+The dataset is the Galaxy Zoo dataset from the galaxy challenge eight years ago, with the labels mannually produced by volunteers who classify the galaxy images taken from the SDSS (Sloan Digital Sky Survey). There are 6 possible classes for galaxies: elliptical, clockwise spiral, anticlockwise spiral, edge-on , star/don't know, or merger. The dataset used in this project is given in zip files: train_x.zip, train_y.zip, and test_x.zip. Datasets are too large to be added to github repo and can be accessed here: https://drive.google.com/drive/folders/1IOx5ZplbTnpaZrQSFC5OaLiyPOppDRpL?usp=sharing
 
 ## Visual Transformer Model
 Extensive explanations and comments for code will be provided in the ipynb file. 
