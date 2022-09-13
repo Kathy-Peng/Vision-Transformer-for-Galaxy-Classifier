@@ -24,7 +24,7 @@ The dataset for this project is the Galaxy 10 dataset (see https://astronn.readt
 Galaxy10 is meant to be an alternative to MNIST or Cifar10 as a deep learning toy dataset for astronomers.
 
 ## Visual Transformer Model
-Extensive explanations and comments for code will be provided in the ipynb file. 
+![model architecture for ViT](IMG_0453.jpg)
 
 ## Credit goes to:
 SDSS (Sloan Digital Sky Survey)
